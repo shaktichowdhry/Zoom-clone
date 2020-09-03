@@ -5,14 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zoom</title>
-    <!-- using ejs templating to print the uid which we got from serve.js -->
+    <link rel="stylesheet" href="style.css">
     <script>
         console.log("<%= roomID %>");
     </script>
 </head>
 
 <body>
-    Lets Build this....
+    <!-- used to render own video-->
+    <div id="video-grid">
+
+    </div>
 </body>
+<!-- used to view own video (after body tag only) (static folder specified in serve.js) -->
+<script src="script.js"></script>
 
 </html>
